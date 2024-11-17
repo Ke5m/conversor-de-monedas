@@ -11,7 +11,7 @@ import java.text.DecimalFormat;
 
 public class ConsultaApi {
     HttpClient client = HttpClient.newHttpClient();
-    String direccion= "https://v6.exchangerate-api.com/v6/90bb2fbe5709010da8d02d80/pair/";
+    String direccion= "https://v6.exchangerate-api.com/v6/API-KEY/pair/";
 
 
     public void realizarConsulta(String moneda1 ,String moneda2,double cantidad){
